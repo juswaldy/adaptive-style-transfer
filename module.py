@@ -16,6 +16,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from __future__ import division
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from ops import *
 
 

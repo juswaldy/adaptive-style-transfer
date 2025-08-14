@@ -19,10 +19,11 @@ from __future__ import print_function
 
 import functools
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import vgg
 
-slim = tf.contrib.slim
+import tf_slim as slim
 
 networks_map = {
                 'vgg_a': vgg.vgg_a,

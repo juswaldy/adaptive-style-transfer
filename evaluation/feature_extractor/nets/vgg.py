@@ -43,9 +43,10 @@ from __future__ import print_function
 
 import collections
 from pprint import pformat
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
 
 
 def vgg_arg_scope(weight_decay=0.0005):
