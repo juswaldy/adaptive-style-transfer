@@ -17,12 +17,13 @@
 
 import math
 import numpy as np
-import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+import tf_slim as slim
 from tensorflow.python.framework import ops
 import cv2
 
-import tensorflow.contrib.layers as tflayers
+from tf_slim import layers as tflayers
 
 from utils import *
 

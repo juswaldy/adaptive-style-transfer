@@ -17,11 +17,7 @@
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow as tf
-
 import vgg_preprocessing
-
-slim = tf.contrib.slim
 
 
 def get_preprocessing(name, is_training=False):

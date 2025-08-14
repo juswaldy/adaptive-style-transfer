@@ -11,12 +11,11 @@
 Please click on the image for a [high-res version](https://compvis.github.io/adaptive-style-transfer/images/adaptive-style-transfer_chart.jpg).
 
 ## Requirements
-- python 2.7
-- tensorflow 1.2.
+- Python 3.10+
+- TensorFlow 2.16.1 (GPU build requires CUDA 12.4 and NVIDIA driver 550.54.14 or newer)
+- tf_slim
 - PIL, numpy, scipy
 - tqdm
-
-*Also tested in `python3.6 + tensorflow 1.12.0`*
 
 ## Inference 
 #### Simplest van Gogh example
